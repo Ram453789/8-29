@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main()
+{
+	int a;
+	
+	while(a==6){
+	printf("Escoge un caso\n");
+	
+	scanf("%d", &a);
+	
+	switch(a)
+	{
+		case 1:
+			printf("Primero\n");
+		break;
+		case 2:
+			printf("Segundo\n");
+		break;
+		case 3:
+			printf("Trecero\n");
+		break;
+		case 4:
+			printf("Cuarto\n");
+		break;
+		case 5:
+			printf("quinto\n");
+		break;
+		default:
+			printf("Cierre\n");
+		    a==6;
+		break;
+			
+	}
+}
+	return 0;
+}
